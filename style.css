@@ -1,0 +1,44 @@
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/manrope-v15-latin-regular.woff2') format('woff2');
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/manrope-v15-latin-500.woff2') format('woff2'); 
+  }
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/manrope-v15-latin-600.woff2') format('woff2');
+  }
+  body{
+    font-family: 'Manrope',sans-serif;
+    background-color: black;
+  }
+  .containers{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .header{
+    background-image: url(./images/header-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  @media (max-width:640px){
+    .header{
+        background-image: url(./images/header-mobile-img.png);
+    }
+  }
